@@ -14,6 +14,11 @@
 		6E275F31225B9B9500A7A21B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E275F2F225B9B9500A7A21B /* LaunchScreen.storyboard */; };
 		6E275F3C225B9B9500A7A21B /* physicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E275F3B225B9B9500A7A21B /* physicsTests.swift */; };
 		6E275F47225B9B9500A7A21B /* physicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E275F46225B9B9500A7A21B /* physicsUITests.swift */; };
+		6E275F55225B9DFC00A7A21B /* CircuitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E275F54225B9DFC00A7A21B /* CircuitsViewController.swift */; };
+		6E275F57225B9E1A00A7A21B /* WavesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E275F56225B9E1A00A7A21B /* WavesViewController.swift */; };
+		6E275F59225B9E2400A7A21B /* KinematicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E275F58225B9E2400A7A21B /* KinematicsViewController.swift */; };
+		6E275F5B225B9E2D00A7A21B /* DynamicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E275F5A225B9E2D00A7A21B /* DynamicsViewController.swift */; };
+		6E275F61225B9E6D00A7A21B /* EnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E275F60225B9E6D00A7A21B /* EnergyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		6E275F42225B9B9500A7A21B /* physicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = physicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E275F46225B9B9500A7A21B /* physicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = physicsUITests.swift; sourceTree = "<group>"; };
 		6E275F48225B9B9500A7A21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E275F54225B9DFC00A7A21B /* CircuitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitsViewController.swift; sourceTree = "<group>"; };
+		6E275F56225B9E1A00A7A21B /* WavesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavesViewController.swift; sourceTree = "<group>"; };
+		6E275F58225B9E2400A7A21B /* KinematicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinematicsViewController.swift; sourceTree = "<group>"; };
+		6E275F5A225B9E2D00A7A21B /* DynamicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicsViewController.swift; sourceTree = "<group>"; };
+		6E275F60225B9E6D00A7A21B /* EnergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				6E275F26225B9B9300A7A21B /* AppDelegate.swift */,
 				6E275F28225B9B9300A7A21B /* ViewController.swift */,
 				6E275F2A225B9B9300A7A21B /* Main.storyboard */,
+				6E275F56225B9E1A00A7A21B /* WavesViewController.swift */,
+				6E275F58225B9E2400A7A21B /* KinematicsViewController.swift */,
+				6E275F5A225B9E2D00A7A21B /* DynamicsViewController.swift */,
+				6E275F60225B9E6D00A7A21B /* EnergyViewController.swift */,
+				6E275F54225B9DFC00A7A21B /* CircuitsViewController.swift */,
 				6E275F2D225B9B9500A7A21B /* Assets.xcassets */,
 				6E275F2F225B9B9500A7A21B /* LaunchScreen.storyboard */,
 				6E275F32225B9B9500A7A21B /* Info.plist */,
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E275F5B225B9E2D00A7A21B /* DynamicsViewController.swift in Sources */,
 				6E275F29225B9B9300A7A21B /* ViewController.swift in Sources */,
+				6E275F57225B9E1A00A7A21B /* WavesViewController.swift in Sources */,
+				6E275F59225B9E2400A7A21B /* KinematicsViewController.swift in Sources */,
+				6E275F55225B9DFC00A7A21B /* CircuitsViewController.swift in Sources */,
 				6E275F27225B9B9300A7A21B /* AppDelegate.swift in Sources */,
+				6E275F61225B9E6D00A7A21B /* EnergyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
